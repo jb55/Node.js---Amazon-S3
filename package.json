@@ -1,0 +1,25 @@
+{ "name" : "s3"
+, "description" : "An S3 library for node.js. Supports automatic md5 of content, streaming, 100-continues, and very large files"
+, "version" : "0.1.0"
+, "homepage" : "http://github.com/nuxusr/Node.js---Amazon-S3"
+, "author" : "Dallin Dyer <DallinDyer@gmail.com>"
+, "contributors" : []
+, "repository" :
+  { "type" : "git"
+  , "url" : " http://github.com/nuxusr/Node.js---Amazon-S3.git"
+  }
+, "bugs" :
+  { "mail" : "DallinDyer@gmail.com"
+  , "web" : "http://github.com/nuxusr/Node.js---Amazon-S3/issues"
+  }
+, "engines" : { "node" : ">=0.2.0" }
+, "main" : "./lib/s3.js"
+, "scripts" : { 
+	"test" : "test.js" 
+  }
+, "dependencies" : { 
+	"mime"  : ">=1.0.0",
+    "nodeunit"   : ">=0.1.0"
+  }
+, "licenses" : []
+}
